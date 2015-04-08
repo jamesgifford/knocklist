@@ -2,18 +2,19 @@
 	<head>
 		<title>Laravel</title>
 		
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Play:400' rel='stylesheet' type='text/css'>
 
 		<style>
 			body {
+				background: #FB1B4C;
 				margin: 0;
 				padding: 0;
 				width: 100%;
 				height: 100%;
-				color: #B0BEC5;
+				color: #efefef;
 				display: table;
 				font-weight: 100;
-				font-family: 'Lato';
+				font-family: 'Play';
 			}
 
 			.container {
@@ -29,10 +30,10 @@
 
 			.title {
 				font-size: 96px;
-				margin-bottom: 40px;
+				margin-bottom: 20px;
 			}
 
-			.quote {
+			.description {
 				font-size: 24px;
 			}
 		</style>
@@ -40,8 +41,8 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="title">KnockList</div>
+				<div class="description">coming soon</div>
 			</div>
 		</div>
 	</body>
